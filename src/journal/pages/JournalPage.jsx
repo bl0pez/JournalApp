@@ -8,7 +8,6 @@ import { startNewNote } from '../../store/journal/thunks';
 
 export const JournalPage = () => {
 
-
   const dispatch = useDispatch();
   const { isSaving, active } = useSelector(state => state.journal);
 
